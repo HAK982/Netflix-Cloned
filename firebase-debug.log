@@ -1,0 +1,86 @@
+[debug] [2023-02-19T18:56:37.519Z] ----------------------------------------------------------------------
+[debug] [2023-02-19T18:56:37.521Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-19T18:56:37.522Z] CLI Version:   11.23.1
+[debug] [2023-02-19T18:56:37.522Z] Platform:      win32
+[debug] [2023-02-19T18:56:37.522Z] Node Version:  v16.14.0
+[debug] [2023-02-19T18:56:37.523Z] Time:          Sun Feb 19 2023 23:56:37 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-19T18:56:37.524Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-19T18:56:37.532Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-19T18:56:37.533Z] > authorizing via signed-in user (ha475128@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hamza Ahmed Khan\Documents\MERN STACK\REACT\Netflix\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-19T18:56:45.444Z] > refreshing access token with scopes: []
+[debug] [2023-02-19T18:56:45.450Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-19T18:56:45.450Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T18:56:46.271Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-02-19T18:56:46.272Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T18:56:46.274Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-19T18:56:47.031Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-02-19T18:56:47.032Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-02-19T18:56:47.033Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-02-19T18:56:47.754Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-02-19T18:57:00.688Z] ----------------------------------------------------------------------
+[debug] [2023-02-19T18:57:00.690Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-19T18:57:00.691Z] CLI Version:   11.23.1
+[debug] [2023-02-19T18:57:00.691Z] Platform:      win32
+[debug] [2023-02-19T18:57:00.691Z] Node Version:  v16.14.0
+[debug] [2023-02-19T18:57:00.692Z] Time:          Sun Feb 19 2023 23:57:00 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-19T18:57:00.692Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-19T18:57:00.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-19T18:57:00.708Z] > authorizing via signed-in user (ha475128@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hamza Ahmed Khan\Documents\MERN STACK\REACT\Netflix\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-19T18:57:17.847Z] > refreshing access token with scopes: []
+[debug] [2023-02-19T18:57:17.853Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-19T18:57:17.854Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T18:57:18.529Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-02-19T18:57:18.529Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-19T18:57:18.532Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2023-02-19T18:57:19.278Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 401
+[debug] [2023-02-19T18:57:19.278Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2023-02-19T18:57:19.279Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-02-19T18:57:19.904Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Hamza Ahmed Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list available Google Cloud Platform projects. See firebase-debug.log for more info.

@@ -1,0 +1,16 @@
+.footerr{
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.footer-right{
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.pic{
+    width: 150px;
+}
